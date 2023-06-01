@@ -13,7 +13,7 @@ const KiteSchool = () => {
         <div className="relative pt-[132px]">
           <h1 className="text-[48px] font-[700] text-[#222222] leading-[56px]">
             Learn Kitesurfing with
-            <span className="text-[#106eea]">Progress </span>
+            <span className="text-[#106eea]"> Progress </span>
           </h1>
           <h2 className="text-[#555555] mt-[5px] mb-[30px] text-[24px] font-[400]">
             Kiteboarding School located in Cabarete on the north coast of the
