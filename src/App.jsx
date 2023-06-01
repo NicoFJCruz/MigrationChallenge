@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Route, Routes } from "react-router";
 import Header from "./components/Header";
-import MainPage from "./components/MainPage";
+import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 
 function App() {
@@ -11,9 +11,9 @@ function App() {
     <>
       <Navbar />
       <Header />
-      
+
       <Routes>
-        <Route path="/" element={<MainPage />} />
+        <Route path="/" element={<Home />} />
       </Routes>
     </>
   );
