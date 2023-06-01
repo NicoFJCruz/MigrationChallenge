@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import KiteSchool from "./components/KiteSchool";
 import Navbar from "./components/Navbar";
+import NotFound from "./components/NotFound";
 import Price from "./components/Price";
 import WingSchool from "./components/WingSchool";
 
@@ -22,6 +23,7 @@ function App() {
         <Route path="/school/wing" element={<WingSchool />} />
         <Route path="/price" element={<Price />} />
         <Route path="/wing" element={<Contact />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </>
   );
