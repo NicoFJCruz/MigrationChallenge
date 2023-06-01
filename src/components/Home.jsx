@@ -1,5 +1,4 @@
 import React from "react";
-import hero from "../assets/hero-bg.jpg";
 
 const Home = () => {
   return (
@@ -9,7 +8,7 @@ const Home = () => {
           Learn kiteboarding and WingFoiling with{" "}
           <span className="text-[#106eea] block">Progress Kitesurf</span>
         </h1>
-        <h2 className="text-[#555555] mt-[5px] mr-[30px] text-[24px] font-[400]">
+        <h2 className="text-[#555555] mt-[5px] mb-[30px] text-[24px] font-[400]">
           Kiteboarding and Winging School located in Cabarete on the north coast
           of the Dominican Republic.
         </h2>
